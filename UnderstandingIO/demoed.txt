@@ -1,0 +1,5 @@
+The demoee's name is bob.
+The demoee's age is 23.
+The demoee's SSN is helena.
+The demoee's SSN is 2305.
+The demoee is designated Patient Number 000237.
