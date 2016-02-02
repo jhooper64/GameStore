@@ -25,6 +25,8 @@ public class LizardGrid extends JFrame implements ActionListener
 	private final JButton[] buttons; // create array of buttons
 	private final String[] names = {"Snapping Turtle", "Painted Turtle", "Spiny Softshell", "Northern Alligator Lizard", "Greater Short-horned Lizard", "Common Sagebrush Lizard", "Western Fence Lizard", "Western Skink"};
 	
+	
+	
 	String[][][] reptilesLizards = 	
 		       
 		{{{"Snapping Turtle   ", "Painted Turtle   ", "Spiny Softshell   ", "Northern Alligator Lizard   ", "Greater Short-horned Lizard   ", "Common Sagebrush Lizard   ", "Western Fence Lizard   ", "Western Skink   "},
@@ -49,6 +51,8 @@ public class LizardGrid extends JFrame implements ActionListener
 	
 	public LizardGrid()		//constructor with no arguments
 	{
+		
+		
 		super("Press Close Button To End");
 		gridLayout1 = new GridLayout(3, 3, 5, 5); 	// grid layout has gaps of 5 between buttons
 													// no gaps between buttons
@@ -56,6 +60,7 @@ public class LizardGrid extends JFrame implements ActionListener
 		setLayout(gridLayout1);
 		buttons = new JButton[names.length];
 		
+		JOptionPane.showMessageDialog(null, "Welcome to Reptiles of Montana. Push a button to learn more about the animal.");
 		
 		for (int count = 0; count < names.length; count++)
 		{
