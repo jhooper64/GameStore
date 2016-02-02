@@ -107,7 +107,7 @@ public class LizardGrid extends JFrame implements ActionListener
 			
 			switch (Animal)
 			{
-			case 1: {pic.getGraphics2(); break;}
+			case 0: {pic.getGraphics2(); break;}
 			
 			}
 			}												//SPINY TURTLE
@@ -124,7 +124,7 @@ public class LizardGrid extends JFrame implements ActionListener
 			
 			switch (Animal)
 			{
-			case 2: {pic.getGraphics3(); break;}
+			case 0: {pic.getGraphics3(); break;}
 			}
 			}												//NORTHERN ALLIGATOR LIZARD
 		
